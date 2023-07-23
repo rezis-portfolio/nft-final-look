@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>NFT Marketplace</title>
+  </head>
+  <body>
+    <!-- TOP SECTION FOR LOGO AND LINKS -->
+    <section class="top-section">
+      <div class="main-logo">
+        <img
+          src="./icons/logo.png"
+          alt="Main Logo of Website"
+          class="main-logo-img"
+        />
+        <img
+          src="./images/logo-text.png"
+          alt="Main Logo text image"
+          class="main-text-logo"
+        />
+      </div>
+      <nav class="links">
+        <a href="#" class="text link">Marketplace</a>
+        <a href="#" class="text link">Rankings</a>
+        <a href="#" class="text link">Connect a wallet</a>
+        <button class="btn top-btn" onclick="alert('Get starting...')">
+          <img src="./icons/User.png" alt="User icon" class="btn-img" />
+          Sign Up
+        </button>
+      </nav>
+    </section>
+    <!-- TOP SECTION FOR LOGO AND LINKS -->
+
+    <!-- HEADER SECTION - MAIN SECTION -->
+    <header class="header">
+      <div class="container-spacer">
+        <div class="header-inside">
+          <div class="main-text-header">
+            <h1 class="main-heading">Discover digital art & Collect NFTs</h1>
+            <p class="subheading sub-size">
+              NFT marketplace UI created with Anima for Figma. Collect, buy and
+              sell art from more than 20k NFT artists.
+            </p>
+            <button class="btn main-btn" onclick="alert('Get Starting')">
+              <img
+                src="./icons/rocket-icon.png"
+                alt="rocket icon"
+                class="btn-img"
+              />
+              Get Started
+            </button>
+            <div class="results">
+              <div class="result">
+                <p class="result-number result-padding">240k+</p>
+                <p class="result-name subheading">Total Sale</p>
+              </div>
+              <div class="result">
+                <p class="result-number result-padding">100k+</p>
+                <p class="result-name subheading">Auctions</p>
+              </div>
+              <div class="result">
+                <p class="result-number result-padding">240k+</p>
+                <p class="result-name subheading">Artists</p>
+              </div>
+            </div>
+          </div>
+          <div class="main-img-header">
+            <img
+              src="./images/main-img.png"
+              alt="image of galaxy in art way"
+              class="main-img-astro"
+            />
+            <div class="main-img-bottom">
+              <p class="subheading margin-bottom-sm">Space Walking</p>
+              <div class="main-img-creator">
+                <img
+                  src="./icons/first-avatar-icon.png"
+                  alt="first avatar icon"
+                  class="creator-icon"
+                />
+                <span class="text">Animakid</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER SECTION - MAIN SECTION -->
+
+    <!-- TRENDING SECTION -->
+    <section class="trending">
+      <div class="container-spacer">
+        <div class="trending-name margin-bottom-lg">
+          <h2 class="sec-heading margin-bottom-sm">Trending Collection</h2>
+          <p class="subheading">
+            Checkout our weekly updated trending collection
+          </p>
+        </div>
+        <div class="trending-content grid grid-col-3">
+          <!-- first  -->
+          <div class="trending-card">
+            <img
+              src="./images/doggy.png"
+              alt="dog image"
+              class="trending-card-main-img"
+            />
+            <div class="mini-grid grid-col-3">
+              <img
+                src="./images/sec-cat.png"
+                alt="cat image"
+                class="mini-grid-img"
+              />
+              <img
+                src="./images/sec-bear.png"
+                alt="bear-img"
+                class="mini-grid-img"
+              />
+              <div class="div-img">
+                <span class="subheading div-img-inside">1025+</span>
+              </div>
+            </div>
+            <p class="card-name card-name-margin">DSGN Animals</p>
+            <div class="trending-creator">
+              <img
+                src="./avatars/mr-fox-avatar.png"
+                alt="Mr fox avatar"
+                class="creator-icon"
+              />
+              <span class="text">MrFox</span>
+            </div>
+          </div>
+          <!-- second -->
+          <div class="trending-card">
+            <img
+              src="./images/shroom.png"
+              alt="dog image"
+              class="trending-card-main-img"
+            />
+            <div class="mini-grid grid-col-3">
+              <img
+                src="./images/sec-shroom-one.png"
+                alt="cat image"
+                class="mini-grid-img"
+              />
+              <img
+                src="./images/sec-shroom-two.png"
+                alt="bear-img"
+                class="mini-grid-img"
+              />
+              <div class="div-img text">
+                <span class="subheading div-img-inside">1025+</span>
+              </div>
+            </div>
+            <p class="card-name card-name-margin">Magic Mushrooms</p>
+            <div class="trending-creator">
+              <img
+                src="./avatars/shroomie-avatar.png"
+                alt="Mr fox avatar"
+                class="creator-icon"
+              />
+              <span class="text">Shroomie</span>
+            </div>
+          </div>
+          <!-- third -->
+          <div class="trending-card">
+            <img
+              src="./images/robotic.png"
+              alt="dog image"
+              class="trending-card-main-img"
+            />
+            <div class="mini-grid grid-col-3">
+              <img
+                src="./images/sec-robo-one.png"
+                alt="cat image"
+                class="mini-grid-img"
+              />
+              <img
+                src="./images/sec-robo-two.png"
+                alt="bear-img"
+                class="mini-grid-img"
+              />
+              <div class="div-img text">
+                <span class="subheading div-img-inside">1025+</span>
+              </div>
+            </div>
+            <p class="card-name card-name-margin">Disco Machines</p>
+            <div class="trending-creator">
+              <img
+                src="./avatars/bekind-avatar.png"
+                alt="Mr fox avatar"
+                class="creator-icon"
+              />
+              <span class="text">BeKind2Robots</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TRENDING SECTION -->
+
+    <!-- CREATOR SECTION -->
+    <section class="creator">
+      <div class="container-spacer">
+        <div class="middle-section-heading margin-bottom-lg">
+          <div class="creator-heading-text">
+            <h2 class="sec-heading margin-bottom-sm">Top creators</h2>
+            <p class="subheading">
+              Checkout Top Rated Creators on the NFT Marketplace
+            </p>
+          </div>
+          <div class="middle-section-btn">
+            <button class="btn-sec creator-btn">
+              <img
+                src="./icons/purple-rocket-icon.png"
+                alt="purple rocket icon"
+                class="btn-icon btn-img"
+              />
+              View Rankings
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-col-4">
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-1.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">Keepitreal</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">1</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-2.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">DigiLab</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">2</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-3.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">GravityOne</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">3</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-4.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">Juanie</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">4</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-5.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">BlueWhale</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">5</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-6.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">mr fox</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">6</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-7.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">Shroomie</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">7</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-8.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">robotica</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">8</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-9.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">RustyRobot</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">9</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-10.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">animakid</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">10</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-11.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">Dotgu</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price">Total Sales:</p>
+              <p class="avatar-price-num">34.53 ETH</p>
+            </div>
+            <div class="card-number">11</div>
+          </div>
+          <div class="avatar-card">
+            <img
+              src="./avatars/Avatar-12.png"
+              alt="Avatar image"
+              class="avatar-img"
+            />
+            <h5 class="card-name">Ghiblier</h5>
+            <div class="avatar-price-div">
+              <p class="avatar-price text">Total Sales:</p>
+              <p class="avatar-price-num text">34.53 ETH</p>
+            </div>
+            <div class="card-number">12</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CREATOR SECTION -->
+
+    <!-- BROWSE SECTION -->
+    <section class="browse">
+      <div class="container-spacer">
+        <div class="browse-heading margin-bottom-lg">
+          <h2 class="sec-heading">Browse Categories</h2>
+        </div>
+        <div class="grid grid-col-4 browse-grid">
+          <div class="browse-card">
+            <div class="blured-img">
+              <img
+                src="./images/img-blur-1.png"
+                alt="flying whale"
+                class="blur-img"
+              />
+              <div class="blured-filter"></div>
+              <img
+                src="./icons/blur-icon-1.png"
+                alr=" icon"
+                class="blur-icon-img"
+              />
+            </div>
+            <div class="browse-card-name">
+              <p class="card-name">Art</p>
+            </div>
+          </div>
+          <div class="browse-card">
+            <div class="blured-img">
+              <img
+                src="./images/img-blur-2.png"
+                alt="flying whale"
+                class="blur-img"
+              />
+              <div class="blured-filter"></div>
+              <img
+                src="./icons/blur-icon-2.png"
+                alr=" icon"
+                class="blur-icon-img"
+              />
+            </div>
+            <div class="browse-card-name">
+              <p class="card-name">Collectibles</p>
+            </div>
+          </div>
+          <div class="browse-card">
+            <div class="blured-img">
+              <img
+                src="./images/img-blur-3.png"
+                alt="flying whale"
+                class="blur-img"
+              />
+              <div class="blured-filter"></div>
+              <img
+                src="./icons/blur-icon-3.png"
+                alr=" icon"
+                class="blur-icon-img"
+              />
+            </div>
+            <div class="browse-card-name">
+              <p class="card-name">Music</p>
+            </div>
+          </div>
+          <div class="browse-card">
+            <div class="blured-img">
+              <img
+                src="./images/img-blur-4.png"
+                alt="flying whale"
+                class="blur-img"
+              />
+              <div class="blured-filter"></div>
+              <img
+                src="./icons/blur-icon-4.png"
+                alr=" icon"
+                class="blur-icon-img"
+              />
+            </div>
+            <div class="browse-card-name">
+              <p class="card-name">Photography</p>
+            </div>
+          </div>
+          <div class="browse-card">
+            <div class="blured-img">
+              <img
+                src="./images/img-blur-5.png"
+                alt="flying whale"
+                class="blur-img"
+              />
+              <div class="blured-filter"></div>
+              <img
+                src="./icons/blur-icon-5.png"
+                alr=" icon"
+                class="blur-icon-img"
+              />
+            </div>
+            <div class="browse-card-name">
+              <p class="card-name">Video</p>
+            </div>
+          </div>
+          <div class="browse-card">
+            <div class="blured-img">
+              <img
+                src="./images/img-blur-6.png"
+                alt="flying whale"
+                class="blur-img"
+              />
+              <div class="blured-filter"></div>
+              <img
+                src="./icons/blur-icon-6.png"
+                alr=" icon"
+                class="blur-icon-img"
+              />
+            </div>
+            <div class="browse-card-name">
+              <p class="card-name">Utility</p>
+            </div>
+          </div>
+          <div class="browse-card">
+            <div class="blured-img">
+              <img
+                src="./images/img-blur-7.png"
+                alt="flying whale"
+                class="blur-img"
+              />
+              <div class="blured-filter"></div>
+              <img
+                src="./icons/blur-icon-7.png"
+                alr=" icon"
+                class="blur-icon-img"
+              />
+            </div>
+            <div class="browse-card-name">
+              <p class="card-name">Sport</p>
+            </div>
+          </div>
+          <div class="browse-card">
+            <div class="blured-img">
+              <img
+                src="./images/img-blur-8.png"
+                alt="flying whale"
+                class="blur-img"
+              />
+              <div class="blured-filter"></div>
+              <img
+                src="./icons/blur-icon-8.png"
+                alr=" icon"
+                class="blur-icon-img"
+              />
+            </div>
+            <div class="browse-card-name">
+              <p class="card-name">Virtual Worlds</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BROWSE SECTION -->
+
+    <!-- DISCOVER SECTION -->
+    <section class="discover">
+      <div class="container-spacer">
+        <div class="middle-section-heading margin-bottom-lg">
+          <div class="discover-heading-text">
+            <h2 class="sec-heading margin-bottom-sm">Discover More NFTs</h2>
+            <p class="subheading">Explore new trending NFTs</p>
+          </div>
+          <div class="middle-section-btn">
+            <button class="btn-sec creator-btn">
+              <img
+                src="./icons/Eye.svg"
+                alt="Eye icon"
+                class="btn-icon btn-img"
+              />
+              See All
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-col-3">
+          <!-- first -->
+          <div class="discover-card">
+            <div class="discover-img">
+              <img
+                src="./images/astro-ship.png"
+                alt="galaxy ship image"
+                class="discover-image"
+              />
+            </div>
+            <div class="discover-content">
+              <p class="card-name">Distant Galaxy</p>
+              <div class="discover-author">
+                <img
+                  src="./icons/moondancer-avatar.png"
+                  alt="moondancer icon"
+                  class="creator-icon"
+                />
+                <span class="text dicover-creator-name">MoonDancer</span>
+              </div>
+              <!-- about -->
+              <div class="about">
+                <div class="about-price">
+                  <p class="smallest-text about-name">price</p>
+                  <p class="text about-price">1.63 ETH</p>
+                </div>
+                <div class="bid">
+                  <p class="smallest-text about-name">Highest Bid</p>
+                  <p class="text about-price">0.33 wETH</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- second -->
+          <div class="discover-card">
+            <div class="discover-img">
+              <img
+                src="./images/galaxy.png"
+                alt="galaxy image"
+                class="discover-image"
+              />
+            </div>
+            <div class="discover-content">
+              <p class="card-name">Life On Edena</p>
+              <div class="discover-author">
+                <img
+                  src="./avatars/nebulakid-avatar.png"
+                  alt="nebulakid icon"
+                  class="creator-icon"
+                />
+                <span class="text dicover-creator-name">NebulaKid</span>
+              </div>
+              <!-- about -->
+              <div class="about">
+                <div class="about-price">
+                  <p class="smallest-text about-name">price</p>
+                  <p class="text about-price">1.63 ETH</p>
+                </div>
+                <div class="bid">
+                  <p class="smallest-text about-name">Highest Bid</p>
+                  <p class="text about-price">0.33 wETH</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- third -->
+          <div class="discover-card">
+            <div class="discover-img">
+              <img
+                src="./images/astro.png"
+                alt="astronaut image"
+                class="discover-image"
+              />
+            </div>
+            <div class="discover-content">
+              <p class="card-name">AstroFiction</p>
+              <div class="discover-author">
+                <img
+                  src="./avatars/spaceone-avatar.png"
+                  alt="nebulakid icon"
+                  class="creator-icon"
+                />
+                <span class="text dicover-creator-name">Spaceone</span>
+              </div>
+              <!-- about -->
+              <div class="about">
+                <div class="about-price">
+                  <p class="smallest-text about-name">price</p>
+                  <p class="text about-price">1.63 ETH</p>
+                </div>
+                <div class="bid">
+                  <p class="smallest-text about-name">Highest Bid</p>
+                  <p class="text about-price">0.33 wETH</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- done -->
+        </div>
+      </div>
+    </section>
+    <!-- DISCOVER SECTION -->
+
+    <!-- MUSHROOM SECTION -->
+    <section class="mushroom">
+      <img
+        src="images/mushroom.png"
+        alt="mushroom image"
+        class="mushroom-img"
+      />
+    </section>
+    <!-- MUSHROOM SECTION -->
+
+    <!-- HOW IT WORKS SECTION -->
+    <section class="how-it-works">
+      <div class="container-spacer">
+        <div class="how-works-heading margin-bottom-lg">
+          <h2 class="sec-heading margin-bottom-sm">How it works</h2>
+          <p class="subheading">Find out how to get started</p>
+        </div>
+        <div class="grid grid-col-3">
+          <div class="how-works-content">
+            <img
+              src="icons/walllet.svg"
+              alt="wallet icon image"
+              class="how-works-img"
+            />
+            <p class="card-name margin-bottom-sm">Setup Your wallet</p>
+            <p class="text">
+              Set up your wallet of choice. Connect it to the Animarket by
+              clicking the wallet icon in the top right corner.
+            </p>
+          </div>
+          <div class="how-works-content">
+            <img
+              src="icons/collection.svg"
+              alt="collection icon image"
+              class="how-works-img"
+            />
+            <p class="card-name margin-bottom-sm">Create Collection</p>
+            <p class="text">
+              Upload your work and setup your collection. Add a description,
+              social links and floor price.
+            </p>
+          </div>
+          <div class="how-works-content">
+            <img
+              src="icons/shopping.svg"
+              alt="shopping icon image"
+              class="how-works-img"
+            />
+            <p class="card-name margin-bottom-sm">Start Earning</p>
+            <p class="text">
+              Choose between auctions and fixed-price listings. Start earning by
+              selling your NFTs or trading others.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HOW IT WORKS SECTION -->
+
+    <!-- SUBSCRIBE SECTION -->
+    <section class="subscribe">
+      <div class="container-spacer">
+        <div class="subscribe-content">
+          <div class="subscribe-img">
+            <img
+              src="./images/astronaut.png"
+              alt="astronaut in galaxy"
+              class="subscribe-img"
+            />
+          </div>
+          <div class="subscribe-text">
+            <h2 class="sec-heading margin-bottom-sm">Join our weekly digest</h2>
+            <p class="subheading subscribe-subheading">
+              Get exclusive promotions & updates straight to your inbox.
+            </p>
+            <div class="subscribe-form">
+              <input
+                type="text"
+                placeholder="Enter your email here"
+                class="subscribe-input"
+              />
+              <button class="btn subscribe-btn">
+                <img
+                  src="./icons/email-icon.png"
+                  alt="email icon"
+                  class="btn-icon btn-img"
+                />
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SUBSCRIBE SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="container-spacer">
+        <div class="primary-footer">
+          <div class="footer-main">
+            <div class="main-logo footer-logo">
+              <img
+                src="./icons/logo.png"
+                alt="main website logo"
+                class="main-logo-img"
+              />
+              <img
+                src="./images/logo-text.png"
+                alt="main logo in text img"
+                class="main-text-logo"
+              />
+            </div>
+            <p class="footer-main-subheading text footer-text-color">
+              NFT marketplace UI created with Anima for Figma.
+            </p>
+            <p class="sec-subheading text footer-text-color">
+              Join our community
+            </p>
+            <div class="footer-icons">
+              <img
+                src="./icons/DiscordLogo.svg"
+                alt="discort icon"
+                class="logo-img"
+              />
+              <img
+                src="./icons/YoutubeLogo.svg"
+                alt="youtube icon"
+                class="logo-img"
+              />
+              <img
+                src="./icons/TwitterLogo.svg"
+                alt="twitter icon"
+                class="logo-img"
+              />
+              <img
+                src="./icons/InstagramLogo.svg"
+                alt="instagram icon"
+                class="logo-img"
+              />
+            </div>
+          </div>
+          <div class="footer-explore">
+            <h3 class="footer-explore-heading subheading">Explore</h3>
+            <p class="sec-subheading text footer-text-color">Marketplace</p>
+            <p class="sec-subheading text footer-text-color">Rankings</p>
+            <p class="sec-subheading text footer-text-color connect-wallet">
+              Connect a wallet
+            </p>
+          </div>
+          <div class="footer-join">
+            <h3 class="footer-explore-heading subheading">
+              Join our weekly digest
+            </h3>
+            <p
+              class="sec-subheading text footer-text-color footer-join-subheading"
+            >
+              Get exclusive promotions & updates straight to your inbox.
+            </p>
+            <div class="subscribe-form">
+              <input
+                type="text"
+                placeholder="Enter your email here"
+                class="subscribe-input"
+              />
+              <button class="btn subscribe-btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p class="smallest-text footer-text-color">
+            Ⓒ NFT Market. Use this template freely.
+          </p>
+          <p class="smallest-text footer-text-color web-creator">
+            Created By REZI KARANADZE
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION -->
+  </body>
+</html>
